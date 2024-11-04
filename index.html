@@ -416,7 +416,8 @@
         "https://public.tableau.com/views/AnlisesdeInternaesoncoclinicas/Cockpit?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         "https://public.tableau.com/views/Exametempodeesperaoncoclinicas/TempodeEspera?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         "https://public.tableau.com/views/HealthCareExecutiveKPIDashboardoncoclinicas/ExecutiveKPIDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-        "https://public.tableau.com/views/Healthcarerejectiononcoclinicas/AnlisedePlanos?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+        "https://public.tableau.com/views/Healthcarerejectiononcoclinicas/AnlisedePlanos?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/FinanasCorporativas-PainelDemonstrativoFinanceirooncoclinicas/Cockpit-Finance?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
 
 
 
@@ -457,6 +458,7 @@
             launchViz(15);
             launchViz(16);
             launchViz(17);
+            launchViz(18);
             //options.device = 'phone';
         } else if (window.matchMedia("(max-width: 980px)").matches) {
             //alert("I am a tablet layout!");
@@ -483,7 +485,7 @@
             launchViz(15);
             launchViz(16);
             launchViz(17);
-
+            launchViz(18);
             // Launches the viz again with the new sizing at the current index of vizList.
         } else {
             //alert("I am a desktop layout!");
@@ -528,6 +530,7 @@
             launchViz(15);
             launchViz(16);
             launchViz(17);
+            launchViz(18);
             // Launches the viz again with the new sizing at the current index of vizList.
         }
 
@@ -2002,6 +2005,12 @@
             <div style="display: inline-block;">
                 <p> Dashboard para Análise de Rejeições de planos</p>
                 <div id="vizContainer17"></div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <div style="display: inline-block;">
+                <p> Dashboard para Análise de Demonstrativo Financeiro</p>
+                <div id="vizContainer18"></div>
             </div>
         </div>
     <!--     <div style="text-align: center;">
